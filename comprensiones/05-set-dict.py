@@ -6,14 +6,12 @@
 
 elementos = [ 1, 2, 3, 4, 5 ]
 
-# Crear una nueva lista usando un bucle
-nueva_lista_comprehension = [elemento + 100 for elemento in elementos]
-print(nueva_lista_comprehension)
-
-# Usando comprensión de listas
-nuevo_set_comprehension = {elemento + 100 for elemento in elementos}
-print(nuevo_set_comprehension)
+# Crear un nuevo diccionario usando un bucle
+nuevo_diccionario = {}
+for indice, elemento in enumerate(elementos):
+    nuevo_diccionario[indice] = elemento + 100
+print(nuevo_diccionario)
 
 # Usando comprensión de diccionarios
-nuevo_diccionario_comprehension = {x: elemento + 100 for x, elemento in enumerate(elementos)}
+nuevo_diccionario_comprehension = {indice: elemento + 100 for indice, elemento in enumerate(elementos)}
 print(nuevo_diccionario_comprehension)
