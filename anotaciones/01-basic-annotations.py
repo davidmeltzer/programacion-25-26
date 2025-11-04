@@ -38,4 +38,4 @@ def sumar(a: int, b: int, c: float) -> int:
     return a + b + c
 
 print(sumar(1, 2, 3.5))  # Salida: 6.5
-print(sumar('¿hola ', 'que ', 'tal?'))  # Las anotaciones no imponen restricciones de tipo
+print(sumar('¿hola ', 'que ', 'tal?'))  # Las anotaciones no imponen restricciones de tipo al intérprete de Python.

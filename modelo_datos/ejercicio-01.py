@@ -16,9 +16,7 @@ from typing import Tuple
       
 class NumeroComplejo:
     def __init__(self, complejo: Tuple[float, float]):
-        real, imaginario = complejo
-        self.real = real
-        self.imaginario = imaginario
+        self.real, self.imaginario = complejo
 
     def __eq__(self, other): # Se invoca con el operador ==. Ejemplo: x == x se invoca como x.__eq__(y)
         if not isinstance(other, NumeroComplejo):

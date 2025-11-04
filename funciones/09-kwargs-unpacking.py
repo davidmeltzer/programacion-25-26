@@ -5,9 +5,7 @@
 
 
 def mostrar_info(nombre, ciudad, edad=20):
-    print(f"Nombre: {nombre}")
-    print(f"Edad: {edad}")
-    print(f"Ciudad: {ciudad}")
+    print(f"{nombre=}, {ciudad=}, {edad=}")
 
 # Esto es un diccionario.
 persona = {

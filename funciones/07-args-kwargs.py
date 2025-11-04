@@ -5,7 +5,7 @@
 
 
 def f(a, *pargs, **kargs):
-    print(a, pargs, kargs)
+    print(f"{a=}, {pargs=}, {kargs=}")
 
 f(1)
 f(1, 2, 3)

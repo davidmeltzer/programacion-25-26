@@ -5,7 +5,7 @@
 
 
 def f(a, b, c, d):
-    print(a, b, c, d)
+    print(f"{a=}, {b=}, {c=}, {d=}")
 
 args = (10, 20)
 f(*args, 3, 4)            # Equivalente a f(10, 20, 3, 4)
@@ -13,6 +13,8 @@ f(1, *args, 4)            # Equivalente a f(1, 10, 20, 4)
 f(1, 2, *args)            # Equivalente a f(1, 2, 10, 20)
 
 # f(1, 2, 3, *args)       # TypeError: demasiados argumentos posicionales
+
+# f(range(4)) # Esto no funciona. range(4) es un objeto iterable, no 4 argumentos posicionales.
 
 iterable = range(4)
 f(*iterable)              # Equivalente a f(0, 1, 2, 3)

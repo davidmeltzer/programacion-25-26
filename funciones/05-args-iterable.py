@@ -8,9 +8,9 @@
 
 # def f(*args: Iterable) -> None:
 def f(*args):
-    print(f"type(args) = {type(args)}, valor = {args}")
+    print(f"type(args) = {type(args)}, {args=}")
     for elemento in args:
-        print(f"- {elemento} ({type(elemento)})")
+        print(f"  {elemento=}, ({type(elemento)})")
 
 
 f()

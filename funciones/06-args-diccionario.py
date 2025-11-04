@@ -5,9 +5,9 @@
 
 
 def f(**kwargs): # diccionario
-    print(f"type(kwargs) = {type(kwargs)}, valor = {kwargs}")
+    print(f"type(kwargs) = {type(kwargs)}, {kwargs=}")
     for clave, valor in kwargs.items():
-        print(f"- {clave}: {valor}")
+        print(f"  {clave}: {valor}")
 
 # Llamadas con diferente cantidad de argumentos nombrados
 f(nombre="Ana", edad=25, ciudad="Madrid")

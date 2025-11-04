@@ -14,7 +14,7 @@ print(f"El resultado de sumar(3, 5) es: {resultado}")
 resultado = sumar(3+4j, 5-6j) # Los números complejos también funcionan.
 print(f"El resultado de sumar(3+4j, 5-6j) es: {resultado}")
 
-resultado = sumar("hola ", "mundo")
+resultado = sumar("hola ", "mundo") # Las cadenas de caracteres también funcionan.
 print(f"El resultado de sumar('hola ', 'mundo') es: {resultado}")
 
 # La definión de tipos (type hinting) ES SÓLO INFORMATIVA.
