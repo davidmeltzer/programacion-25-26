@@ -9,9 +9,9 @@
 
 class MiEnumerador:
     def __init__(self, objeto_iterable, inicio_numeracion=0):
-        s # 👉 your code here
+        # 👉 your code here
         pass
-    º
+    
     def __iter__(self):
          # 👉 your code here
         pass
