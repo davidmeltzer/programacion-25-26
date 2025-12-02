@@ -1,0 +1,3 @@
+Probar a generar el entorno:
+1. con las herramientas estándar.
+2. con 'uv'

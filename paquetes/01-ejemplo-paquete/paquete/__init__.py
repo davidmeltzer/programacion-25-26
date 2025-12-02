@@ -1,0 +1,1 @@
+print("Hola desde paquete.__init__.py")

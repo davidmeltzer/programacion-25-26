@@ -1,0 +1,14 @@
+1. Ejecutar paquete como script raíz:
+
+pyton paquete
+
+
+2. Ejecutar paquete previa inicialización
+
+python -m paquete
+
+
+3. Importar paquete
+
+>>> import paquete
+Hola desde __init__.py del paquete 'paquete'.
